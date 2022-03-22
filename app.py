@@ -26,7 +26,7 @@ genre_options = df['genre'].unique()
 with st.sidebar:
     check = st.checkbox('Display table head')
     choose = st.selectbox('Pick a genre', genre_options)
-    slide = st.slider("Select a year", df['year'].min(), df['year'].max())
+    slide = st.slider("Select a year", int(df['year'].min()), int(df['year'].max()))
 
 # Display table if checkbox ticked
 if check:
