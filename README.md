@@ -2,7 +2,7 @@
 Building and deploying my first Streamlit app based on the Disney Films Kaggle dataset [[1](https://www.kaggle.com/datasets/rashikrahmanpritom/disney-movies-19372016-total-gross)].
 
 ## View deployed app
-Have a look at the deployed app [here]().
+Have a look at the deployed app [here](https://share.streamlit.io/amishabhojwani/first_st_app/main/app.py).
 
 ## Run locally
 I recommend creating a virtual environment with anaconda:
